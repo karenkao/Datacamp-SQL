@@ -18,3 +18,23 @@ database 的優勢為:
 1. 更好的儲存空間比起舊的sheet 存放的方式
 2. 儲存更安全，因為加密的關係
 3. 可以同時多個 user 使用資料庫進行撈取讀取資料庫訊息
+
+### Tables
+
+表格命名:
+  1. 小寫
+  2. _ 取代空格
+  3. 有意義
+  4. field name(表格欄位名稱) 和 table 名稱不能相同
+
+key(類似 id 的概念): 
+  1. unique
+  2. 通常是數字
+
+key 對於表格的重要性:
+
+可以看下面這張圖，上排兩個表格可以透過 key 串接，合併成為 patron_checkouts 的表格，但 patron_checkouts 的表格其實不好，因為有一些重複、缺值，所以表格拆散是更好的。
+
+  ![image](https://user-images.githubusercontent.com/88547312/187866699-e8eca3ef-1ff9-4045-b4e1-9de5a907b878.png)
+
+
