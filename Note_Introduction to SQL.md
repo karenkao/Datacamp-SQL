@@ -37,4 +37,22 @@ key 對於表格的重要性:
 
   ![image](https://user-images.githubusercontent.com/88547312/187866699-e8eca3ef-1ff9-4045-b4e1-9de5a907b878.png)
 
+### Data
+
+表格的type :
+
+1. INT
+2. NUMERIC
+3. VARCHAR
+4. DATE
+
+可以透過 database schemas 知道欄位的表格有哪些和表格的類型以及表格與表格的關聯，如下圖:
+![image](https://user-images.githubusercontent.com/88547312/188092215-5f5751a5-9187-47b8-91f6-a87188c371f9.png)
+
+data storage 除了硬體的資料存放，同時 database 也是一個 server ，可以處理同時多個對資料庫的 requests
+
+
+
+
+
 
